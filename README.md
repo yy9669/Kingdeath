@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# The King's death
 
-Author: (TODO: your name)
+Author: Xuyang Fang
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: It's a a dialog game. You will act as a king and try to survive in your palace. 
 
 Screen Shot:
 
@@ -10,10 +10,28 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Make your own choice to survive !
 
 Art Sources:
 
-(TODO: fill in information about the sources of any artwork you used in the game that you did not draw.)
+All the resources are free to use in non-commercial case.
+
+Most art resource comes from the famous game, whitcher and whitcher 3.
+
+Foltest:
+https://www.gizorama.com/2015/feature/pretty-much-everything-you-need-to-know-about-the-witcher
+
+https://www.youtube.com/watch?v=ekb5l4Iozcw
+
+https://www.youtube.com/watch?v=UWiA062r_Lg
+
+wine: 
+http://pngimg.com/download/9490
+
+shadow:
+https://www.pinterest.com/pin/405464772686347089/
+
+bedroom:
+https://www.classicalinterior.com/listing/royal-gold-bedroom-set-carved-with-king-size-bed/
 
 This game was built with [NEST](NEST.md).

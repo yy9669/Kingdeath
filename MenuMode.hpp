@@ -45,6 +45,7 @@ struct MenuMode : Mode {
 
 	//must be set to the atlas from which all the sprites used herein are taken:
 	SpriteAtlas const *atlas = nullptr;
+	SpriteAtlas const *atlas2 = nullptr;
 
 	//currently selected item:
 	uint32_t selected = 0;

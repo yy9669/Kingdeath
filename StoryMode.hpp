@@ -19,25 +19,33 @@ struct StoryMode : Mode {
 
 	//------ story state -------
 	enum {
-		Dunes,
-		Oasis,
-		Hill
-	} location = Dunes;
-	bool have_stone = false;
-	bool added_stone = false;
+		Foltest,
+		Death,
+		Shadow,
+		Guard,
+		Bed,
+	} location = Foltest;
+	bool have_guard = false;
+	bool drink_wine = false;
 	struct {
 		bool first_visit = true;
-		bool wont_leave = false;
-	} dunes;
+	} foltest;
+	struct {
+		int death_reason = 0;
+	} death;
+
 	struct {
 		bool first_visit = true;
-		bool took_stone = false;
-	} oasis;
+	} shadow;
+
 	struct {
 		bool first_visit = true;
-		bool added_stone = false;
-	} hill;
-	
+	} guard;
+
+	struct {
+		bool first_visit = true;
+	} bed;
+
 	glm::vec2 view_min = glm::vec2(0,0);
 	glm::vec2 view_max = glm::vec2(256, 224);
 };
